@@ -11,7 +11,7 @@
 [@waifujack_bot](https://telegram.me/waifujack_bot)
 
 <a href="https://github.com/mathleite/waifujack_bot">
-        <img src="https://github.com/mathleite/waifujack_bot/workflows/ci/badge.svg" alt="Workflow badge">
+        <img src="https://github.com/mathleite/waifujack_bot/workflows/CI/badge.svg" alt="Workflow status badge">
 </a>
 
 Used with [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) package.
