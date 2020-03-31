@@ -1,11 +1,11 @@
 import logging
 
 
-class LoggingSupport:
+class Logger:
     def __init__(self):
-        self._configure_logging()
+        self._configure_logger()
 
-    def _configure_logging(self):
+    def _configure_logger(self):
         logging.basicConfig(
             format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
             level=logging.INFO
