@@ -3,10 +3,8 @@ import configparser
 
 class ConfigParser:
     def __init__(self, config_filename):
-        config_parser = configparser.ConfigParser()
-        config_parser.read(config_filename)
-        self._token = config_parser.get('TELEGRAM', 'WAIFUJACK_BOT_KEY')
+        self._config_parser = configparser.ConfigParser()
+        self._config_parser.read(config_filename)
 
-    @property
-    def retrieve_app_token(self):
-        return self._token
+    def get_file_key_by_module(self, module, file_key):
+        return self._config_parser.get(module, file_key)

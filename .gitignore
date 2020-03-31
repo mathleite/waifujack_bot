@@ -128,8 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Config File
-.waifujackrc
-
 # IDE
 .idea

@@ -22,7 +22,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Flake8 Linter
-        run: flake8 src/ waifu_jack_bot.py
+        run: flake8 src/__init__.py
 
 #      - name: Run Tests
 #        run: python -m unittest

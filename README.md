@@ -28,5 +28,5 @@ You can install it easily with [Docker Compose](https://docs.docker.com/compose/
 ## Start
 Run *Waifujack bot* with:
 ```
-~$ docker exec -it waifujack python3 waifu_jack_bot.py
+~$ docker exec -it waifujack python3 __init__.py
 ```
