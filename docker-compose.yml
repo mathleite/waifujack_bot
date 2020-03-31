@@ -1,0 +1,11 @@
+version: '3'
+services:
+  waifujack:
+    build:
+      dockerfile: docker/Dockerfile
+      context: .
+    volumes:
+    - ./:/var/www/html/waifujack
+    working_dir: /var/www/html/waifujack
+    container_name: waifujack
+    tty: true

@@ -9,4 +9,16 @@
     >
 
 [@waifujack_bot](https://telegram.me/waifujack_bot)
-</div> 
+</div>
+
+## Installing
+You can install it easily with [Docker Compose](https://docs.docker.com/compose/):
+```
+~$ docker-compose up --build -d
+```
+
+## Start
+Run *Waifujack bot* with:
+```
+~$ docker exec -it waifujack python3 waifu_jack_bot.py
+```
