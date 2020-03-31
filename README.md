@@ -9,6 +9,10 @@
     >
 
 [@waifujack_bot](https://telegram.me/waifujack_bot)
+
+Used with [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) package.
+
+Our *Waifujack bot* can get any images for you :D
 </div>
 
 ## Installing
