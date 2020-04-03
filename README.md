@@ -30,3 +30,9 @@ Run *Waifujack bot* with:
 ```
 ~$ docker exec -it waifujack python3 __init__.py
 ```
+
+### Tests
+Run *tests* with:
+```
+~$ docker exec -it waifujack python3 -m unittest
+```
