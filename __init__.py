@@ -1,13 +1,14 @@
 from telegram.ext import CommandHandler, MessageHandler, Filters
 from src.bot.bot_actions import BotActions
 from src.bot.bot_updater import BotUpdater
-from src.support.file_reader import FileReader
+# from src.support.file_reader import FileReader
 from src.support.logger import Logger
+from os import environ
 
 Logger()
-file = FileReader('.env')
+# file = FileReader('.env')
 
-updater = BotUpdater(token=file.find_text_key('BOT_KEY'))
+updater = BotUpdater(token=environ['BOT_KEY'])
 
 updater = updater.get
 
