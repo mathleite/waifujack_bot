@@ -20,5 +20,6 @@ start_handler = CommandHandler('start', actions.start)
 
 echo_handler = MessageHandler(Filters.text, actions.retrieve_non_command_phrase)
 dispatcher.add_handler(start_handler)
+dispatcher.add_handler(echo_handler)
 
 updater.start_polling()
