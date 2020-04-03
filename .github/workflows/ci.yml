@@ -22,7 +22,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Flake8 Linter
-        run: flake8 src/__init__.py
+        run: flake8 __init__.py src/ test
 
       - name: Run Tests
         run: python3 -m unittest
