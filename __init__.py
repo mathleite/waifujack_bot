@@ -20,10 +20,11 @@ dispatcher = updater.dispatcher
 actions = BotActions(text='I\'m a bot, please talk to me!')
 
 start_handler = CommandHandler('start', actions.start)
-
-echo_handler = MessageHandler(Filters.text, actions.retrieve_non_command_phrase)
+# echo_handler = MessageHandler(Filters.text, actions.retrieve_non_command_phrase)
+web_result_handler = CommandHandler('search', actions.search_web_result)
 
 dispatcher.add_handler(start_handler)
-dispatcher.add_handler(echo_handler)
+# dispatcher.add_handler(echo_handler)
+dispatcher.add_handler(web_result_handler)
 
 updater.start_polling()
