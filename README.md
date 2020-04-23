@@ -36,3 +36,7 @@ Run *tests* with:
 ```
 ~$ docker exec -it waifujack python3 -m unittest
 ```
+
+## Commands
+You can `search` everything you want with:
+* **/search** *some* *image* *hd*
