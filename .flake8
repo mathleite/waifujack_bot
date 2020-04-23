@@ -4,4 +4,4 @@ exclude =
     __pycache__,
     /usr
 max-line-length = 100
-ignore = E731,E999
+ignore = E731,E999,F401
